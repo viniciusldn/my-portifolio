@@ -1,0 +1,25 @@
+.portfolio {
+  height: 100vh;
+}
+
+.portfolio .sections {
+  background-color: #282c34;
+  height: calc(100vh - 70px);
+  width: 100%;
+  position: relative;
+  top: 70px;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.portfolio .sections::-webkit-scrollbar { 
+  display: none;
+}
+
+.portfolio .sections > * {
+  height: calc(100vh - 70px);
+  width: 100%;
+  position: relative;
+  scroll-snap-align: start;
+}

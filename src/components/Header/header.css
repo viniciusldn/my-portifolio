@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  background-color: darkslateblue;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  transition: all 1s ease;
+}
+.header .wrapper {
+  margin: 0 20px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .wrapper * {
+  display: flex;
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+  justify-content: space-between;
+}
+
+.header .wrapper .left {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.header .wrapper .left a{
+  font-size: 40px;
+  align-self: baseline;
+}
+
+.header .wrapper .left span{
+  color:snow;
+  font-size: 18px;
+}
+
+.header .right {
+  overflow: hidden;
+}
+
+.header .right .menu {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 1.3s ease;
+}
+
+.header .right .menu span{
+  height: 4px;
+  width: 100%;
+  background-color: black;
+  margin: 3px 0;
+  transform-origin: left;
+  transition: all 1.3s ease;
+}
+
+.active {
+  background-color: indianred;
+}
+
+.active .right .menu {
+  transform: rotate(90deg);
+}
+
+.active .right .menu span:first-child {
+  background-color: snow;
+  transform: rotate(19.5deg);
+}
+
+.active .right .menu span:nth-child(2) {
+  opacity: 0;
+}
+
+.active .right .menu span:last-child {
+  background-color: snow;
+  transform: rotate(-19.5deg);
+}
+

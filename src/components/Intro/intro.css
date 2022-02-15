@@ -1,0 +1,74 @@
+.intro {
+  background-color: snow;
+  display: flex;
+  overflow: hidden;
+}
+
+.intro .left {
+  flex: 0.5;
+  top: 100px;
+  position: relative;
+}
+
+.intro .left .imgContainer {
+  height: 700px;
+  width: 700px;
+  background-color: cadetblue;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  float: right;
+
+}
+
+.intro .left .imgContainer img {
+  height: 85%;
+  justify-content: flex-end;
+}
+
+.intro .right {
+  flex: 0.5;
+}
+
+.intro .right .wrapper {
+  height: 100%;
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro .right .wrapper h1{
+  font-size: 60px;
+  margin: 10px 0;
+}
+.intro .right .wrapper h2{
+  font-size: 35px;
+}
+.intro .right .wrapper h3{
+  font-size: 30px;
+}
+
+.intro .right a{
+  position: absolute;
+  bottom: 10px;
+  left: 75%;
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+.intro .right span {
+  color: #2fc18c;
+}
+
+.intro .right .arrow{
+  animation: arrowBlink 3.4s infinite;
+  opacity: 0;
+}
+
+@keyframes arrowBlink {
+  100%{
+    opacity: 100%;
+  }
+}

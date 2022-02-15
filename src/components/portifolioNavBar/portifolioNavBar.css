@@ -1,0 +1,19 @@
+.carousel ul {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.carousel ul li {
+  font-size: 14px;
+  margin-right: 2.5px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.carousel ul li.active {
+  background-color: darkslateblue;
+  color: snow;
+}

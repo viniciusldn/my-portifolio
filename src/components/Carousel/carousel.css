@@ -1,0 +1,89 @@
+.carousel {
+  background-color: snow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel h1 {
+  font-size: 50px;
+}
+
+.carousel .container {
+  padding: 40px 0;
+  width: 70%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.carousel .container::-webkit-scrollbar { 
+  display: none;
+}
+
+.carousel .container .item {
+  height: 220px;
+  widows: 150px;
+  border-radius: 20px;
+  border: 1px solid #2fc18c;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2fc18c;
+  position: relative;
+  transition: all 1s ease;
+}
+
+.carousel .container .item h3 {
+  top: 20px;
+  position: absolute;
+  font-size: 20px;
+  color: lightcyan;
+}
+
+.carousel .container .item h5 {
+  top: 60px;
+  text-align: center;
+  position: absolute;
+  font-size: 14px;
+  font-weight: bolder;
+  color: azure;
+}
+
+.carousel .container .item .skills_wrapper {
+  bottom: 40px;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel .container .item .skills_wrapper .shield {
+  color: azure;
+  margin: 0 2px;
+}
+
+.carousel .container .item .thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  transition: all 1s ease;
+}
+
+.carousel .container .item:hover{
+  background-color: darkslateblue;
+}
+
+.carousel .container .item:hover .thumbnail {
+  opacity: 0.14;
+  z-index: 0;
+}
