@@ -1,0 +1,47 @@
+.midia {
+  background-color: snow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.midia h1 {
+  font-size: 50px;
+}
+
+.midia-container {
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  top: 35%;
+  width: 60%;
+
+}
+
+.midia-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  overflow: visible;
+}
+
+.margin {
+  height: 220px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.midia {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  transition: .6s;
+}
+
+.midia:hover {
+  height: 220px;
+  width: 220px;
+  box-shadow: 1 1 1 black;
+}

@@ -1,3 +1,7 @@
+.swiper-wrapper {
+  overflow: visible;
+}
+
 .carousel {
   background-color: snow;
   display: flex;
@@ -11,7 +15,7 @@
 
 .carousel .container {
   padding: 40px 0;
-  width: 70%;
+  width: 75%;
   height: 50%;
   display: flex;
   align-items: center;
@@ -19,6 +23,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   scroll-behavior: smooth;
+  -ms-scroll-snap-type: y mandatory;
   scroll-snap-type: y mandatory;
   scrollbar-width: none;
 }
@@ -29,7 +34,7 @@
 
 .carousel .container .item {
   height: 220px;
-  widows: 150px;
+  width: 280px;
   border-radius: 20px;
   border: 1px solid #2fc18c;
   margin: 10px 20px;
@@ -39,12 +44,16 @@
   color: #2fc18c;
   position: relative;
   transition: all 1s ease;
+  overflow: hidden;
 }
 
 .carousel .container .item h3 {
   top: 20px;
   position: absolute;
   font-size: 20px;
+}
+.carousel .container .item a{
+  text-decoration: none;
   color: lightcyan;
 }
 
@@ -64,17 +73,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .carousel .container .item .skills_wrapper .shield {
   color: azure;
-  margin: 0 2px;
+  margin: 2px 2px;
 }
 
 .carousel .container .item .thumbnail {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: 1;
   transition: all 1s ease;
 }

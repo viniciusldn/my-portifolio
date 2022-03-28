@@ -21,13 +21,13 @@ export default function DropMenu({Menu, setMenu}) {
           </a>
         </li>
         <li>
-          <a href="#testmonial">
-            Curiosidades
+          <a href="#midia">
+            Mídias
           </a>
         </li>
         <li>
           <a href="#footer">
-            Contatos
+            Contato
           </a>
         </li>
       </ul>

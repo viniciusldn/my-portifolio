@@ -6,7 +6,7 @@ import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import Intro from '../components/Intro/Intro'
 import DropMenu from '../components/Menu/DropMenu'
-import Testmonial from '../components/Testmonial/Testmonial'
+import Midia from '../components/Midia/Midia'
 import './portifolio.css'
 
 
@@ -20,7 +20,7 @@ export default function Portifolio() {
         <Intro />
         <Content />
         <Carousel />
-        <Testmonial />
+        <Midia />
         <Footer />
       </div>
     </div>

@@ -21,7 +21,7 @@ export default function Intro() {
     <div className='intro' id='intro'>
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/no_background_me.png" alt="my_profile_pic" />
+          <img src={require('../../assets/no_background_me.png')} alt="my_profile_pic" />
         </div>
       </div>
       <div className="right">
