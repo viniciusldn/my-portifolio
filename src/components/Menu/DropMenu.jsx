@@ -1,6 +1,7 @@
 import React from 'react';
 import './dropmenu.css';
 
+// menu esta atras o carousel de projetos
 export default function DropMenu({Menu, setMenu}) {
   return (
     <div className={Menu ? 'dropmenu active' : 'dropmenu'}>

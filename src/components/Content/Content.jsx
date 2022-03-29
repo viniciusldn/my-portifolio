@@ -23,21 +23,21 @@ export default function Content() {
           <p>
             Eu sou um desenvolvedor criativo e moro em Campinas, SP. Gosto de desenvolver
             projetos desafiadores que me fazem pensar e aprender, mas você também pode me
-            tomando uma cerveja em algum bar ou jogando vídeo game com os amigos. Gosto de
-            pensar na mundo da programação como uma caixa de areia onde tudo é possível,
+            vertomando uma cerveja em algum bar ou jogando vídeo game com os amigos. 
+            Gosto depensar no mundo da programação como uma caixa de areia onde tudo é possível,
             ainda mais levando em conta os avanços da área de hardware e nas tecnologias
             web, que combinados com a natureza de compartilhamento de idéias da internet,
             permite infinitas possibilidades.
           </p>
           <p>
             Me da muito prazer descobrir soluções mais eficazes para problemas encontrados
-            diariamente e aplica-las de forma efetiva e gosto muito de explorar fóruns e
+            diariamente e aplica-las de forma efetiva e gosto muito de explorar fóruns,
             blogs e sites que trazem esses tipos de idéias!
           </p>
           <p>
             Tenho orgulho de estar atualmente estudando na Trybe, criando e aprendendo com
-            projetos divertidos e desafiadores. E mm meu tempo livre procuro aprofundar
-            meus conhecimentos desenvolvendo alguns projetos pessoais e me manter antenado
+            projetos divertidos e desafiadores. Em meu tempo livre procuro aprofundar
+            meus conhecimentos desenvolvendo projetos pessoais e me manter antenado
             nas novas tecnologias do mercado.
           </p>
         </div>
