@@ -5,25 +5,26 @@
 }
 
 .intro .left {
+  height: 100%;
+  width:50%;
   flex: 0.5;
-  top: 100px;
+  top: 20%;
   position: relative;
 }
 
 .intro .left .imgContainer {
-  height: 700px;
-  width: 700px;
+  height: 87vh;
+  width: 43vw;
   background-color: cadetblue;
   border-radius: 50%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   float: right;
-
+  margin-right: 5%;
 }
 
 .intro .left .imgContainer img {
-  height: 85%;
   justify-content: flex-end;
 }
 
@@ -34,20 +35,21 @@
 .intro .right .wrapper {
   height: 100%;
   width: 100%;
-  padding-left: 50px;
+  padding-left: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .intro .right .wrapper h1{
-  font-size: 60px;
-  margin: 10px 0;
+  font-size: 6vh;
+  margin: 1% 0;
 }
 .intro .right .wrapper h2{
-  font-size: 35px;
+  font-size: 3.2vh;
 }
 .intro .right .wrapper h3{
-  font-size: 30px;
+  font-size: 3.2vh;
 }
 
 .intro .right a{
@@ -55,7 +57,8 @@
   bottom: 10px;
   left: 75%;
   text-decoration: none;
-  text-decoration-color: black;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
 }
 
 .intro .right span {
@@ -63,8 +66,15 @@
 }
 
 .intro .right .arrow{
-  animation: arrowBlink 3.4s infinite;
+  -webkit-animation: arrowBlink 3.4s infinite;
+          animation: arrowBlink 3.4s infinite;
   opacity: 0;
+}
+
+@-webkit-keyframes arrowBlink {
+  100%{
+    opacity: 100%;
+  }
 }
 
 @keyframes arrowBlink {

@@ -36,7 +36,7 @@ export default function Footer() {
         <img src={require('../../assets/Internet-group-chat.svg.png')} alt='Balões de fala vazios' />
       </div>
       <div className='right'>
-        <h2>Entre em contato</h2>
+        <h1>Entre em contato</h1>
         <form ref={form} onSubmit={handleSubmit}>
           <input type='text' placeholder='Nome' name="from_name"  onChange={(e)=>setName(e.target.value)} />
           <input type='email' placeholder='Email' name="from_email" onChange={(e)=>setEmail(e.target.value)} />
